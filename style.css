@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    margin:1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+ background-color:rgb(255,255,255);
+ overflow: auto;
+}
+.inicio{
+display: flex;
+justify-content:right;
+padding: 5px; ;
+list-style: none;
+background-color:rgba(0, 0, 0, 0.8);
+gap: 2em;
+font-size: 1.2em;
+border: solid 1px;
+}
+
+
+.inicio a{
+color:white;
+text-decoration: none;
+margin-bottom: 10px;
+
+}
+
+a:hover{
+    background-color:rgba(11, 143, 143, 0.5);
+  border-color: aliceblue;
+}
+ 
+.logo {
+margin-left : 350px;
+   display: flex;
+margin-top: 3px;
+
+}
+.title{
+    margin-top: 1em;
+    align-content: center;
+    margin-bottom: 50px;
+    display:flex;
+}
+main img{
+    margin-left: 50px;
+    border: solid 1px;
+    margin-bottom: 50px;
+}
+ .container{
+    column-count: 2;
+    column-rule:5px dashed goldenrod;
+    column-gap: 2;
+ }
+.container p{
+ margin: 1.8rem;
+font-size:20px;
+line-height: 26px;
+}
+.container h2{
+    
+ margin-left: 15px;
+ color:#2e5574;
+}
+li p{
+    margin-bottom: 15px;
+    
+}
+.atitudes li{
+    margin-left: 50px;
+}
+.atitudes h2{
+    margin: 150px 16px 20px;
+}
+.atitudes{
+    line-height: 26px;
+    margin: 5px;
+    font-size:20px;
+}
+div.img{
+margin: 20px 150px 35px 25px;
+}
+footer{
+    background-color: #ccc;
+   padding: 5px;
+}
